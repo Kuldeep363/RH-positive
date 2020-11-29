@@ -1,0 +1,28 @@
+.main-button{
+    background: #FE1F1A;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+}
+.navbar-button{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.card-button{
+    width: 280px;
+    font-size: 20px;
+}
+.main-button:hover{
+    background: #9b0301;
+    transition: all 250ms;
+}
+ @media screen and(max-width: 700px){
+    .navbar-button{
+        font-size: 10px;
+    }
+ }

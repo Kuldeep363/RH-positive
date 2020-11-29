@@ -3,14 +3,15 @@ body{
     padding: 0;
     margin: 0;
 }
-.navbar{
+.navbar-for-mobile{
     display: none;
 }
 @media screen and (max-width: 960px){
-.navbar{
+.navbar-for-mobile{
     display: block;
-    position: absolute;
-    width: 90%;
+    position: fixed;
+    top: 85vh;
+    width: 80%;
     height: 50px;
     left:50%;
     transform:translateX(-50%);
@@ -44,8 +45,14 @@ p{
     margin-bottom: -7px;
 }
 }
-@media screen and (max-width: 385px){
-   .navbar{
+@media screen and (max-width: 500px){
+    .navbar-for-mobile{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px){
+   .navbar-for-mobile{
        font-size: 12px;
+       top: 85vh;
    }
 }

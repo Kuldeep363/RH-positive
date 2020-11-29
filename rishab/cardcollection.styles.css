@@ -1,0 +1,28 @@
+.collection{
+    padding: 20px 180px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+    border-radius: 15px;
+}
+@media screen and (max-width : 1260px){
+    .collection{
+        padding: 0;
+    }
+}
+@media screen and (max-width : 737px)
+{
+       .collection{
+           padding: 0;
+          width: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+       }
+}

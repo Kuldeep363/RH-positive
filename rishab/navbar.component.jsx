@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { } from '../../assets/logo.jpeg';
+
 import { Link } from 'react-router-dom';
 
 import {BsDroplet , BsPeople } from 'react-icons/bs';
@@ -10,12 +12,12 @@ import {FiAward} from 'react-icons/fi';
 
 import {IoCallOutline} from 'react-icons/io5';
 
-import '../navbar/navbar.styles.css';
+import './navbar.styles.css';
 
 
-const Navbar = () =>{
+const NavbarForMobile = () =>{
     return(
-       <div className="navbar">
+       <div className="navbar-for-mobile">
        <div className="options">
           <Link className="option">
              <div className="icon"><BiHome/></div>
@@ -42,4 +44,4 @@ const Navbar = () =>{
     );
 }
 
-export default Navbar;
+export default NavbarForMobile;
