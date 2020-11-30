@@ -1,0 +1,62 @@
+.donation-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 100px 0 30px 0;
+    margin-top: 50px;
+}
+.content-part{
+    width: 50%;
+}
+.content-part .heading{
+  color: #FE1F1A;
+  font-size: 30px;
+  font-weight: 600;
+}
+.content-part .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+.content-part img{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 2px;
+    padding: 0 5px 0 0;
+}
+.content-part span{
+    color: #FE1F1A;
+    font-size: 40px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.content-part .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:  0;
+}
+.image-part img{
+    position: relative;
+    top: -100px;
+}
+@media screen and (max-width:940px){
+    .image-part img{
+        display: none;
+    }
+    .content-part{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .content-part .heading{
+        font-size: 28px;
+    }
+}
