@@ -1,0 +1,87 @@
+.TextSvg
+{
+    display: flex;
+    margin-left: 50px;
+}
+
+.bookReading
+{
+    height: 400px;
+    width : 600px;
+}
+
+.textAreaLetsBlood
+{
+    color: #FE1F1A;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.textAreaPara
+{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.LearnMore
+{
+    font-size: 20px;
+    outline: none;
+    background: #FE1F1A;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+.LearnMore:hover{
+    background-color: #CC2421;
+}
+
+@media screen and (max-width : 960px)
+{
+    .TextSvg{
+        flex-direction: column;
+        padding : 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+ 
+    .bookReading
+    {
+         display: none;
+    }
+
+    .textAreaLetsBlood
+    {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    }
+
+    .textAreaPara
+{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.LearnMore
+{
+    font-size: 20px;
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+    
+
+}
