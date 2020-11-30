@@ -5,7 +5,7 @@
 
 .imageStyle
 {
-    height: 500px;
+    height: 600px;
     width: 100%;
     border-radius: 50px;
     
@@ -24,20 +24,20 @@
     backdrop-filter: blur(5px);
   }
 
-  .bv
+  .becomeVolunteer
   {
       text-align: center;
       font-size: xx-large;
       margin-top: 10px;
   }
 
-  p.paraSp{
+  p.paragraph{
       font-size: 20px;
       margin-top: 30px;
       text-align: center;
   }
 
-  .btnInbv
+  .btnForJoin
   {
       text-align: center;
       padding: 8px 20px;
@@ -50,31 +50,43 @@
       color: white;
       background: #FE1F1A;
       font-size: 15px;
+      cursor: pointer;
   }
 
-  @media screen and (max-width : 480px)
+  .btnForJoin:hover{
+      background: #CC2421;
+      transition: all 0.3 ease-out;
+      transition: 250ms;
+  }
+
+  @media screen and (max-width : 960px)
   {
+    .imageStyle
+    {
+        height: 450px;
+        width: 100%;
+        border-radius: 50px;
+    }
+
     .text-block {
-        right: 20px;
         height: 280px;
         width: 280px;
-        border-radius: 30px;
       }
 
-      .bv
+      .becomeVolunteer
       {
           text-align: center;
           font-size: 25px;
           margin-top: 10px;
       }
     
-      p.paraSp{
+      p.paragraph{
           font-size: 18px;
           margin-top: 30px;
           text-align: center;
       }
     
-      .btnInbv
+      .btnForJoin
       {
           text-align: center;
           padding: 8px 20px;
