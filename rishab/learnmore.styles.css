@@ -1,0 +1,54 @@
+.TextSvg
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+.bookReading
+{
+    height: 400px;
+    width : 600px;
+}
+.TextArea{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAreaLetsBlood
+{
+    color: #FE1F1A;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.textAreaPara
+{
+    max-width: 70%;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width : 960px)
+{ 
+    .bookReading
+    {
+         display: none;
+    }
+    .TextArea{
+        width: 100%;
+    } 
+    .textAreaLetsBlood{
+        font-size: 25px;
+    }
+
+    .textAreaPara{
+        max-width: 90%;
+        font-size: 20px;
+    }
+}
