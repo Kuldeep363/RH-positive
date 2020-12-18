@@ -15,7 +15,7 @@ export default function donorPage(){
             <div className = "imgAndBtn">
             <img src = {donorGirl} alt = "GirlDonorImage" className = "girlDonorImage"/>
             <div className = "sideTwoBtns">
-            <button className = "Btn-1"><i className="fa fa-arrow-circle-o-right"></i>  Existing Donor</button>
+            <button className = "Btn-1"><i className="fa fa-arrow-circle-o-left"></i>  Existing Donor</button> //add left rather than right
                 <button className = "Btn-2">New Donor  <i className="fa fa-arrow-circle-o-right"></i></button>
                 
             </div>
