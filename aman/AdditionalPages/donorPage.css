@@ -1,0 +1,72 @@
+.imgAndBtn
+{
+    display: flex;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center;
+    padding: 0px 400px 0px 0px; */
+}
+
+.girlDonorImage
+{
+     margin: 0px 0px 0px 50px;
+} 
+
+.sideTwoBtns
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.fa.fa-arrow-circle-o-right{
+  font-size:24px; 
+  color: white;
+}
+
+.Btn-1
+{
+   width: 40%;
+   padding: 18px 20px;
+   margin: 10px 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background:#FE1F1A ;
+   color: white;
+   font-size: 20px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   letter-spacing: 2px;
+   cursor: pointer;
+   transition: all 250ms;
+}
+
+.Btn-2
+{
+
+   width: 40%;
+   padding: 18px 20px;
+   margin: 10px 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background:#FE1F1A ;
+   color: white;
+   font-size: 20px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   letter-spacing: 2px;
+   cursor: pointer;
+   transition: all 250ms;
+}
+
+.Btn-1:hover{
+    background: #9b0301;
+    transition: all 250ms;
+}
+
+.Btn-2:hover{
+    background: #9b0301;
+    transition: all 250ms;
+}
