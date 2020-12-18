@@ -1,0 +1,65 @@
+.imgAndBtn
+{
+    display: flex;
+    width : 100%;
+}
+
+.searchImage
+{
+    height: 500px;
+    width: 450px;
+}
+
+.setsOfBtn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.upperBtns, .bottomBtns
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Btn-1,.Btn-2,.Btn-4,.Btn-A,.Btn-B,.Btn-D
+{ 
+    width: 70px;
+    padding: 20px 15px;
+    margin: 20px 5px;
+    background:#FE1F1A ;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 250ms;
+    text-align: center;
+
+}
+
+.Btn-3,.Btn-C{
+    width: 70px;
+    padding: 20px 15px;
+    margin: 20px 5px 20px 50px;
+    background:#FE1F1A ;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 250ms;
+    text-align: center;
+}
+
+.Btn-1:hover,.Btn-2:hover,.Btn-3:hover,.Btn-4:hover,.Btn-A:hover,.Btn-B:hover,.Btn-C:hover,.Btn-D:hover{
+    background: #9b0301;
+    transition: all 250ms;
+}   
