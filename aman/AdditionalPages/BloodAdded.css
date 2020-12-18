@@ -1,0 +1,21 @@
+.girlImage
+{
+    height: 500px;
+    width: 550px;
+    margin: 0px 0px 0px 100px;
+}
+
+.tickGif
+{
+    height: 400px;
+    width: 400px;
+    margin: 0px 0px 120px 270px;
+}
+
+/* Custom button styling change*/
+/* .guide-button{
+    width: 300px;
+    padding: 20px 10px;
+    margin: 50px 35px 50px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
