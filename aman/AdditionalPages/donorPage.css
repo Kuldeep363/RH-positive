@@ -26,6 +26,13 @@
   color: white;
 }
 
+/* Add left arrow button */
+.fa.fa-arrow-circle-o-left{
+    font-size:24px; 
+    color: white;
+  }
+
+
 .Btn-1
 {
    width: 40%;
