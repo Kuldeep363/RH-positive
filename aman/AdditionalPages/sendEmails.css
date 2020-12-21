@@ -1,0 +1,110 @@
+.imgAndForm
+{
+    display: flex;
+    width: 100%;
+}
+
+.sendEmailsForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.BoyMessengerImage
+{
+    height: 540px;
+    width: 400px;
+    margin : 0px 0px 0px 250px;
+}
+
+label.Subject
+{
+    display: block;
+	margin-top: 10px;
+	background: #fff;
+    height: 16px;
+	padding: 5px 8px 5px 8px;
+	color: #B9B9B9;
+    font-size: 15px;
+    margin-right: 390px;
+    z-index: 1000;
+
+}
+
+label.message
+{
+    display: block;
+	margin-top: 10px;
+	background: #fff;
+    height: 17px;
+	padding: 5px 8px 5px 8px;
+	color: #B9B9B9;
+    font-size: 15px;
+    margin-right: 380px;
+    z-index: 1000;
+}
+
+.SubjectText
+{
+    box-sizing: border-box;
+	display: block;
+	outline: none;
+    border-color: #9b0301;
+    border-radius: 5px;
+	height: 50px;
+    width: 500px;
+    padding: 5px 10px;
+}
+
+.MessageText
+{
+    box-sizing: border-box;
+	display: block;
+	outline: none;
+    border-color: #9b0301;
+    border-radius: 5px;
+	height: 150px;
+    width: 500px;
+    padding: 5px 10px;
+}
+
+.chooseImg
+{
+    width: 28%;
+    color: white;
+    background:  #9b0301;
+    border: none;
+    outline: none;
+    margin: 20px 280px 20px 0px;
+    padding: 5px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 250ms;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sendMail
+{
+    width: 65%;
+    color: white;
+    background:  #9b0301;
+    border: none;
+    outline: none;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 250ms;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

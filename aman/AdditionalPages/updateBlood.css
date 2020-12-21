@@ -1,0 +1,90 @@
+.imgAndForm
+{
+    display: flex;
+    width: 100%;
+}
+
+.girlDonorImage
+{
+    height: 500px;
+    width: 550px;
+    margin : 0px 0px 0px 100px;
+}
+
+.formForRhId
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.formForRhId
+{
+    margin: 0px 0px 100px 100px;
+}
+
+label.RhIdName,.address{
+	display: block;
+	margin-top: 10px;
+	background: #fff;
+    height: 15px;
+	padding: 5px 8px 5px 8px;
+	color: #B9B9B9;
+    font-size: 15px;
+    margin-right: 280px;
+    z-index: 1000;
+    
+}
+
+.formForRhId .RhIdText, .addressText
+{
+	box-sizing: border-box;
+	display: block;
+	outline: none;
+    border-color: #9b0301;
+    border-radius: 5px;
+	height: 50px;
+    width: 400px;
+    padding: 5px 10px;
+}
+
+.checkBoxContainer
+{
+    padding: 10px;
+    margin: 0px 174px 0px 0px;
+}
+
+.voluntary
+{
+    padding: 0px 0px 0px 5px;
+}
+
+.replacement
+{
+    padding: 0px 0px 0px 5px;
+}
+
+.checkBoxContainer input[type = "checkbox"]
+{
+    margin: 0px 0px 0px 174px;
+}
+
+.addBlood
+{
+    width: 40%;
+    color: white;
+    background:  #9b0301;
+    border: none;
+    outline: none;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 250ms;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
