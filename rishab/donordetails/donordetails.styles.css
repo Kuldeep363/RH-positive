@@ -1,0 +1,241 @@
+.donordetails-container {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.donordetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+}
+.wrapper {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  border: 5px solid #fe1f1a;
+  border-radius: 50%;
+  background-image: url(../../assets/donor.jpeg);
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.my-file {
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  z-index: 10;
+}
+.my-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.camera {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  font-size: 24px;
+  color: #fff;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background-color: #fe1f1a;
+  padding: 4px 8px 0px 8px;
+  cursor: pointer;
+}
+.form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.inputs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 -20px 0;
+}
+.donorinfo {
+  width: 280px;
+  position: relative;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.donorinfo .donor-bg {
+  display: inline-block;
+  background: #fe1f1a;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+.donorinfo .donor-bg:before {
+  content: "";
+  position: absolute;
+  top: -70%;
+  left: 50.1%;
+  border: 24px solid transparent;
+  border-bottom: 30px solid #fe1f1a;
+  transform: translateX(-50%);
+}
+.donorinfo .donor-bg p {
+  position: absolute;
+  font-size: 23px;
+  margin: 8px 0px 0 15px;
+  color: #fff;
+  z-index: 999;
+}
+.donor-image img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fe1f1a;
+  border-radius: 50%;
+}
+.donor-image h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.inputtext {
+  width: 300px;
+}
+.input-container {
+  position: relative;
+  box-sizing: border-box;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.input-container span {
+  position: relative;
+  left: 15px;
+  top: -85px;
+  z-index: 99;
+  color: rgb(0, 0, 0);
+  transition: all 250ms ease;
+  background-color: #fff;
+}
+.inputs1 .input-container:nth-child(1) span {
+  width: 50px;
+}
+.inputs1 .input-container:nth-child(2) span {
+  width: 120px;
+}
+.inputs2 .input-container:nth-child(1) span {
+  width: 80px;
+}
+.inputs2 .input-container:nth-child(2) span {
+  width: 115px;
+}
+.addressinput {
+  height: 130px;
+  margin: 0;
+}
+.input-container .addressinput ~ .addresslabel {
+  top: -165px;
+  width: 65px;
+}
+.submit-button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #fe1f1a;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: -40px 30px 0 0;
+}
+.rightcontent {
+  width: 30%;
+}
+.prevlink {
+  font-size: 24px;
+  color: rgb(44, 44, 44);
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.carddetails {
+  margin: 90px 60px 0 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.carddetails img {
+  height: 450px;
+  width: 240px;
+}
+.carddetails .cardlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carddetails .cardlinks .link {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  padding: 5px 8px 3px 8px;
+  background-color: #fe1f1a;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+@media screen and (max-width: 990px) {
+  .donordetails {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carddetails {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: -40px 0 0 0;
+  }
+  .carddetails .cardlinks {
+    margin-top: -100px;
+    padding-bottom: 40px;
+  }
+  .carddetails img {
+    transform: rotate(90deg);
+  }
+  .prevlink {
+    left: 80px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .inputs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 475px) {
+  .carddetails img {
+    height: 90vw;
+    width: 200px;
+  }
+  .carddetails .cardlinks {
+    margin-top: -60px;
+  }
+  .prevlink {
+    left: 20px;
+  }
+}
